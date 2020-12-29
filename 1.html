@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <title>기본 컴퓨터 시스템 - 레지스터</title>
+  <meta charset="utf-8">  <!-- utf8로 문서를 읽어라-->
+</head>
+
+<body>
+  <h1><a href="index.html">기본컴퓨터</a></h1>
+  <ol>
+    <li><a href="1.html">레지스터</a></li>
+    <li><a href="2.html">버스</a></li>
+    <li><a href="3.html">ALU</a></li>
+  </ol>
+  <h2>레지스터</h2>
+  <img src="image.png" width="80%">
+  <p>디지털 컴퓨터에서에서 <strong><a href="https://sites.astro.caltech.edu/~mcs/ovro/40m/help/regspec.html" target="_blank" title="register specification">레지스터</a>는 잠깐 데이터를 <u>저장</u>하고 명령을 실행</strong>할 수 있게 도와준다.
+  이는 메모리와는 다르다. 메모리는 방대한 양의 데이터를 저장하는 곳으로, 접근하는데 속도가 느리다.
+  쉽게말하면 책상에 앉아 공부할때 레지스터는 잠깐 정보를 적어놓는 메모지 같은 것이고
+  책장에 꽂혀있는 책들은 메모리라고 비유할 수 있겠다.</p>
+  <p>그렇다면 레지스터에 데이터를 담는 과정은 어떻게 수행될까?
+  레지스터1에 담겨있는 데이터를 레지스터2에 전송하는 과정은 다음과 같이 나타낸다.</p>
+  <strong>R2  <-  R1</strong>
+  <p>만약 어떤 조건 P일때 위와 같은 전송이 이뤄졌으면 좋겠다면, 다음과 같이 표현한다.
+  이때 P 자리는 제어함수라고 말한다.</p>
+  <strong>P : R2 <- R1</strong>
+  <p>조건 P=1 이라면 위와 같은 전송이 이뤄지고, P=0이라면 전송이 수행되지 않는다.
+  보통 조건 P 자리에는 어떤 시간 T을 많이 쓴다.
+  시간 T에서 위와같은 레지스터 전송이 수행하라는 식으로 작성한다.</p>
+</body>
+</html>
